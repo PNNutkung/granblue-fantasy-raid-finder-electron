@@ -1,0 +1,10 @@
+machine:
+  timezone:
+    Asia/Bangkok
+  node:
+    version: 6.10.2
+  dependencies:
+    pre:
+      - npm install yarn
+  test:
+    - yarn run test
